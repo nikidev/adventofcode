@@ -38,11 +38,11 @@ foreach ($steps as $step)
 
     if ($letter === 'L')
     {
-        $heading -= 1;
+        $heading --;
     }
     if ($letter === 'R')
     {
-        $heading += 1;
+        $heading ++;
     }
     if ($heading < 0 )
     {
